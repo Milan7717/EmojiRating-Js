@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Rating</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="flex h-[100vh] justify-center items-center bg-green-400">
+        <div class="lg:w-[40%] w-[70%] bg-white rounded-lg h-[40%] flex justify-center flex-col items-center">
+            <div class="emoji-container absolute mb-20 flex w-[8%] overflow-hidden text-center " id="emoji-container">
+                <i class="fa-regular fa-face-angry fa-3x  rounded-full m-1"></i>
+                <i class="fa-regular fa-face-frown fa-3x rounded-full m-1"></i>
+                <i class="fa-regular fa-face-meh fa-3x rounded-full m-1"></i>
+                <i class="fa-regular fa-face-smile fa-3x rounded-full m-1"></i>
+                <i class="fa-regular fa-face-laugh fa-3x rounded-full m-1"></i>
+            </div>
+            <div class="rating-container  absolute mt-24" id="rating-container">
+                <i class="fa-solid fa-star fa-2x active"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                <i class="fa-solid fa-star fa-2x"></i>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
